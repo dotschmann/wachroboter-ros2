@@ -1,0 +1,28 @@
+/**:
+  ros__parameters:
+    topic_codeword: /wachroboter/codeword
+    topic_guard_status: /wachroboter/guard_status
+    topic_alarm: /wachroboter/alarm
+
+    codeword: OPEN123
+    expected_codeword: OPEN123
+
+    guard_position_x: -1.185
+    guard_position_y: -0.100
+    guard_position_yaw: -3.012
+
+    visitor_stop_x: -1.850
+    visitor_stop_y: 1.442
+    visitor_stop_yaw: -1.655
+
+    guard_clear_position_x: -0.349
+    guard_clear_position_y: -0.731
+    guard_clear_position_yaw: -2.468
+
+    lager_x: 0.343
+    lager_y: 1.442
+    lager_yaw: -1.655
+
+    polizei_x: -2.001
+    polizei_y: 6.053
+    polizei_yaw: 3.047
