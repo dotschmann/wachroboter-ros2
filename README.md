@@ -65,7 +65,7 @@ wachroboter-ros2/
 
 ## Requirements
 
-Tested conceptually against the original environment:
+Target environment:
 
 - Ubuntu 24.04
 - ROS 2 Jazzy
@@ -99,7 +99,7 @@ source install/setup.bash
 
 ```bash
 cd ~/ros2_ws/src/wachroboter-ros2
-./scripts/run_demo.sh correct
+bash scripts/run_demo.sh correct
 ```
 
 Expected mission exchange:
@@ -116,7 +116,7 @@ The Visitor then moves to `LAGER`.
 
 ```bash
 cd ~/ros2_ws/src/wachroboter-ros2
-./scripts/run_demo.sh wrong
+bash scripts/run_demo.sh wrong
 ```
 
 Expected mission exchange:
@@ -133,13 +133,13 @@ The Guard moves to `POLIZEI` while the Visitor remains at `VISITOR_STOP`.
 Press `Ctrl+C` to stop a running demo. You can also run:
 
 ```bash
-./scripts/stop_demo.sh
+bash scripts/stop_demo.sh
 ```
 
 For a headless run without RViz:
 
 ```bash
-NO_RVIZ=1 ./scripts/run_demo.sh correct
+NO_RVIZ=1 bash scripts/run_demo.sh correct
 ```
 
 ## Mission coordinates
