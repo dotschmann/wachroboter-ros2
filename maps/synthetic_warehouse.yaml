@@ -1,6 +1,6 @@
 image: synthetic_warehouse.pgm
 mode: trinary
-resolution: 0.1
+resolution: 0.5
 origin: [-6.0, -2.0, 0.0]
 negate: 0
 occupied_thresh: 0.65
